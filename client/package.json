@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest-dom": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.3",
+    "tailwindcss": "^3.4.0",
+    "user-event": "^4.0.0",
+    "web-vitals": "^3.5.1"
+  }
+}

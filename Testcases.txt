@@ -1,0 +1,110 @@
+Successful Authentication:
+
+Verify that the login API returns a valid authentication token for correct credentials.
+Ensure the token is valid for a specified duration.
+
+
+Invalid Credentials:
+
+Test the API response when incorrect username or email is provided.
+Test the API response when incorrect password is provided.
+
+Token Security:
+
+Validate that the API enforces proper token validation.
+Ensure that expired tokens are rejected.
+Test token refresh functionality if applicable.
+
+Rate Limiting and Security:
+
+Verify that the API has proper rate-limiting mechanisms to prevent brute force attacks.
+Test for security measures against common vulnerabilities like Mongodb and cross-site scripting.
+
+Error Handling:
+
+Test the API's response for various error scenarios (e.g., server errors, malformed requests).
+Ensure that error messages do not reveal sensitive information.
+Multi-factor Authentication (if applicable):
+
+If the app supports multi-factor authentication, test the API's handling of multi-factor authentication requests
+
+Test Cases for Posting:
+
+Create Post:
+
+Verify that a user can successfully create a post with text.
+Test creating a post with a combination of text and multimedia elements (images, videos, links).
+Ensure that the post character limit is enforced.
+
+Privacy Settings:
+
+Test creating posts with different privacy settings (public, friends only, private).
+Verify that posts with the appropriate privacy settings are visible only to the intended audience.
+
+Edit and Delete Post:
+
+Validate the ability to edit the content of an existing post.
+Verify that users can delete their own posts.
+Ensure that deleted posts are removed from the user's profile and others' feeds.
+
+Tagging and Mentions:
+
+Test tagging friends or other users in a post.
+Verify that mentioned users receive notifications.
+Ensure that users can tag people and pages in multimedia elements.
+
+Post Timestamp:
+
+Validate that the post timestamp is accurate and reflects the user's time zone.
+Test scenarios where posts are scheduled for future publication.
+Report and Block:
+
+Test the reporting functionality for inappropriate posts.
+Verify that users can block posts from specific users or pages.
+
+Test Cases for Comments:
+
+Add Comment:
+
+Verify that users can add comments to their own and others' posts.
+Test adding comments with text, emojis, and multimedia elements.
+
+Comment Visibility:
+
+Ensure that comments are visible to the appropriate audience based on post privacy settings.
+Test commenting on public, friends-only, and private posts.
+
+Edit and Delete Comment:
+
+Validate the ability to edit the content of an existing comment.
+Verify that users can delete their own comments.
+Ensure that deleted comments are removed from the post and notifications.
+
+Reply to Comments:
+
+Test the ability to reply to comments.
+Verify that nested comments (replies) are displayed correctly.
+
+Notification for Comments:
+
+Validate that users receive notifications for comments on their posts.
+Test scenarios where users receive notifications for comments on posts they commented on.
+
+Limitations and Restrictions:
+
+Test the character limit for comments.
+Validate that the app prevents spammy or repetitive comments.
+Ensure that users cannot comment on posts from blocked users.
+
+Emoji and Special Characters:
+
+Test adding emojis and special characters in comments.
+Verify that the app handles a variety of characters gracefully.
+Remember to consider both positive and negative scenarios while testing these functionalities to ensure a comprehensive testing approach.
+
+
+
+
+
+
+
